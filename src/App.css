@@ -395,7 +395,6 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* ↓Book */
 .gridContainer {
   margin: 40px 0;
   padding: 15px;
@@ -434,5 +433,3 @@ h1 {
     flex-direction: column;
   }
 }
-
-/* ↑Book */
