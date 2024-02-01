@@ -74,6 +74,12 @@ h1 {
   color: #fff;
 }
 
+h1+p {
+  margin: 0;
+  line-height: 25px;
+  text-align: center;
+}
+
 /* Selector */
 .selector-container {
   margin: 4rem 0;
@@ -96,6 +102,10 @@ h1 {
   outline: 0;
   border: none;
   cursor: pointer;
+}
+
+.selector-container>select>option {
+  color: #333;
 }
 
 .selector-container>button {
